@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-17T12:13:40 IST" name="Suite" finished-at="2021-06-17T12:22:29 IST" duration-ms="528735">
+    <groups>
+    </groups>
+    <test started-at="2021-06-17T12:13:40 IST" name="HMS ADMIN LOGIN TESTCASES" finished-at="2021-06-17T12:22:29 IST" duration-ms="528735">
+      <class name="HMS.admin.testcases.HomepageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.HomepageTest@55b7a4e0]" started-at="2021-06-17T12:14:42 IST" name="setup" finished-at="2021-06-17T12:15:20 IST" duration-ms="37533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:HMS.admin.testcases.HomepageTest@55b7a4e0]" started-at="2021-06-17T12:15:20 IST" name="verifyHomePageTitleTest" finished-at="2021-06-17T12:15:20 IST" duration-ms="61" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Home page title not matched expected [Smart Hospital and Research] but found [Smart Hospital Management System]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Home page title not matched expected [Smart Hospital and Research] but found [Smart Hospital Management System]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at HMS.admin.testcases.HomepageTest.verifyHomePageTitleTest(HomepageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.HomepageTest@55b7a4e0]" started-at="2021-06-17T12:15:20 IST" name="tearDown" finished-at="2021-06-17T12:15:21 IST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.HomepageTest@55b7a4e0]" started-at="2021-06-17T12:15:21 IST" name="setup" finished-at="2021-06-17T12:16:25 IST" duration-ms="64278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUserNameTest()[pri:2, instance:HMS.admin.testcases.HomepageTest@55b7a4e0]" started-at="2021-06-17T12:16:25 IST" name="verifyUserNameTest" finished-at="2021-06-17T12:16:26 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.HomepageTest@55b7a4e0]" started-at="2021-06-17T12:16:26 IST" name="tearDown" finished-at="2021-06-17T12:16:28 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.HomepageTest@55b7a4e0]" started-at="2021-06-17T12:16:28 IST" name="setup" finished-at="2021-06-17T12:17:15 IST" duration-ms="46843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonfrontoffice()[pri:3, instance:HMS.admin.testcases.HomepageTest@55b7a4e0]" started-at="2021-06-17T12:17:15 IST" name="clickonfrontoffice" finished-at="2021-06-17T12:17:30 IST" duration-ms="15509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonfrontoffice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.HomepageTest@55b7a4e0]" started-at="2021-06-17T12:17:30 IST" name="tearDown" finished-at="2021-06-17T12:17:31 IST" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HMS.admin.testcases.HomepageTest -->
+      <class name="HMS.admin.testcases.VistorpageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.VistorpageTest@1afd44cb]" started-at="2021-06-17T12:19:37 IST" name="setup" finished-at="2021-06-17T12:21:05 IST" duration-ms="87547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addvisitor([Ljava.lang.String;)[pri:0, instance:HMS.admin.testcases.VistorpageTest@1afd44cb]" started-at="2021-06-17T12:21:05 IST" name="addvisitor" data-provider="getVISTestData" finished-at="2021-06-17T12:21:11 IST" duration-ms="6618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2e590b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addvisitor -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.VistorpageTest@1afd44cb]" started-at="2021-06-17T12:21:11 IST" name="tearDown" finished-at="2021-06-17T12:21:12 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.VistorpageTest@1afd44cb]" started-at="2021-06-17T12:21:12 IST" name="setup" finished-at="2021-06-17T12:22:21 IST" duration-ms="69092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addvisitor([Ljava.lang.String;)[pri:0, instance:HMS.admin.testcases.VistorpageTest@1afd44cb]" started-at="2021-06-17T12:22:21 IST" name="addvisitor" data-provider="getVISTestData" finished-at="2021-06-17T12:22:28 IST" duration-ms="6214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@42ef042a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addvisitor -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.VistorpageTest@1afd44cb]" started-at="2021-06-17T12:22:28 IST" name="tearDown" finished-at="2021-06-17T12:22:29 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HMS.admin.testcases.VistorpageTest -->
+      <class name="HMS.admin.testcases.FrontofficeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.FrontofficeTest@72057ecf]" started-at="2021-06-17T12:17:31 IST" name="setup" finished-at="2021-06-17T12:18:23 IST" duration-ms="51427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytabletitle()[pri:1, instance:HMS.admin.testcases.FrontofficeTest@72057ecf]" started-at="2021-06-17T12:18:23 IST" name="verifytabletitle" finished-at="2021-06-17T12:18:23 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytabletitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.FrontofficeTest@72057ecf]" started-at="2021-06-17T12:18:23 IST" name="tearDown" finished-at="2021-06-17T12:18:24 IST" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.FrontofficeTest@72057ecf]" started-at="2021-06-17T12:18:24 IST" name="setup" finished-at="2021-06-17T12:19:19 IST" duration-ms="55132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonvistor()[pri:2, instance:HMS.admin.testcases.FrontofficeTest@72057ecf]" started-at="2021-06-17T12:19:19 IST" name="clickonvistor" finished-at="2021-06-17T12:19:35 IST" duration-ms="16236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonvistor -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.FrontofficeTest@72057ecf]" started-at="2021-06-17T12:19:35 IST" name="tearDown" finished-at="2021-06-17T12:19:36 IST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HMS.admin.testcases.FrontofficeTest -->
+      <class name="HMS.admin.testcases.LoginpageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.LoginpageTest@635eaaf1]" started-at="2021-06-17T12:13:40 IST" name="setup" finished-at="2021-06-17T12:13:49 IST" duration-ms="8957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytitle()[pri:1, instance:HMS.admin.testcases.LoginpageTest@635eaaf1]" started-at="2021-06-17T12:13:49 IST" name="verifytitle" finished-at="2021-06-17T12:13:49 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.LoginpageTest@635eaaf1]" started-at="2021-06-17T12:13:49 IST" name="tearDown" finished-at="2021-06-17T12:13:50 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.LoginpageTest@635eaaf1]" started-at="2021-06-17T12:13:50 IST" name="setup" finished-at="2021-06-17T12:13:56 IST" duration-ms="5471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogo()[pri:2, instance:HMS.admin.testcases.LoginpageTest@635eaaf1]" started-at="2021-06-17T12:13:56 IST" name="verifylogo" finished-at="2021-06-17T12:13:56 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.LoginpageTest@635eaaf1]" started-at="2021-06-17T12:13:56 IST" name="tearDown" finished-at="2021-06-17T12:13:58 IST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:HMS.admin.testcases.LoginpageTest@635eaaf1]" started-at="2021-06-17T12:13:58 IST" name="setup" finished-at="2021-06-17T12:14:09 IST" duration-ms="10919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:3, instance:HMS.admin.testcases.LoginpageTest@635eaaf1]" started-at="2021-06-17T12:14:09 IST" name="logintest" finished-at="2021-06-17T12:14:41 IST" duration-ms="32239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HMS.admin.testcases.LoginpageTest@635eaaf1]" started-at="2021-06-17T12:14:41 IST" name="tearDown" finished-at="2021-06-17T12:14:42 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HMS.admin.testcases.LoginpageTest -->
+    </test> <!-- HMS ADMIN LOGIN TESTCASES -->
+  </suite> <!-- Suite -->
+</testng-results>

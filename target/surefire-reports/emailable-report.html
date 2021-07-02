@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Command line suite</th></tr><tr><td><a href="#t0">Command line test</a></td><td class="num">7</td><td class="num">0</td><td class="num attn">3</td><td class="num">322,298</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">HMS.admin.testcases.HomepageTest</td><td><a href="#m0">verifyHomePageTitleTest</a></td><td rowspan="1">1622110185160</td><td rowspan="1">29</td></tr><tr class="failedodd"><td rowspan="2">HMS.admin.testcases.VistorpageTest</td><td><a href="#m1">addvisitor</a></td><td rowspan="2">1622110118948</td><td rowspan="2">5161</td></tr><tr class="failedodd"><td><a href="#m2">addvisitor</a></td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">HMS.admin.testcases.FrontofficeTest</td><td><a href="#m3">clickonvistor</a></td><td rowspan="1">1622110237253</td><td rowspan="1">4830</td></tr><tr class="passedeven"><td><a href="#m4">verifytabletitle</a></td><td rowspan="1">1622110147221</td><td rowspan="1">52</td></tr><tr class="passedodd"><td rowspan="2">HMS.admin.testcases.HomepageTest</td><td><a href="#m5">clickonfrontoffice</a></td><td rowspan="1">1622110289486</td><td rowspan="1">3091</td></tr><tr class="passedodd"><td><a href="#m6">verifyUserNameTest</a></td><td rowspan="1">1622110262335</td><td rowspan="1">148</td></tr><tr class="passedeven"><td rowspan="3">HMS.admin.testcases.LoginpageTest</td><td><a href="#m7">logintest</a></td><td rowspan="1">1622110296779</td><td rowspan="1">27313</td></tr><tr class="passedeven"><td><a href="#m8">verifylogo</a></td><td rowspan="1">1622110267604</td><td rowspan="1">90</td></tr><tr class="passedeven"><td><a href="#m9">verifytitle</a></td><td rowspan="1">1622110190092</td><td rowspan="1">4</td></tr></tbody></table><h2>Command line test</h2><h3 id="m0">HMS.admin.testcases.HomepageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Home page title not matched expected [Smart Hospital and Research] but found [Smart Hospital Management System]
+	at HMS.admin.testcases.HomepageTest.verifyHomePageTitleTest(HomepageTest.java:33)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">HMS.admin.testcases.VistorpageTest#addvisitor</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[checkup, test1, 9994785467, pv008, 15, 6/08/1988, testing2]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12&apos; is not a valid XPath expression.
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-9H358MQU&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\pavigiri\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddec7ec905c43d0ec2c9fc7422127ffe
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at HMS.pages.vistorpage.addvisdetails(vistorpage.java:72)
+	at HMS.admin.testcases.VistorpageTest.addvisitor(VistorpageTest.java:53)
+... Removed 43 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">HMS.admin.testcases.VistorpageTest#addvisitor</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[investigate, test, 9894029726, gp007, 2, 7/07/1986, testing]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12&apos; is not a valid XPath expression.
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-9H358MQU&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\pavigiri\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 673472925841cd8eb6b69545d0aa7c69
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at HMS.pages.vistorpage.addvisdetails(vistorpage.java:72)
+	at HMS.admin.testcases.VistorpageTest.addvisitor(VistorpageTest.java:53)
+... Removed 43 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">HMS.admin.testcases.FrontofficeTest#clickonvistor</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">HMS.admin.testcases.FrontofficeTest#verifytabletitle</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">HMS.admin.testcases.HomepageTest#clickonfrontoffice</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">HMS.admin.testcases.HomepageTest#verifyUserNameTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">HMS.admin.testcases.LoginpageTest#logintest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">HMS.admin.testcases.LoginpageTest#verifylogo</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">HMS.admin.testcases.LoginpageTest#verifytitle</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

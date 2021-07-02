@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="3" name="TestSuite" time="46.034" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Software Testing\Automation\Selenium\programs\Selenium-module-3"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Software Testing\Automation\Selenium\programs\Selenium-module-3"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\pavigiri\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Software Testing\Automation\Selenium\Eclipseworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1408513783742843501.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk-16.0.1/bin/server;C:/Program Files/Java/jdk-16.0.1/bin;C:\Program Files\Java\jre1.8.0_291\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_291\bin;C:\Users\pavigiri\AppData\Local\Microsoft\WindowsApps;C:\Users\pavigiri\AppData\Roaming\npm;C:\Users\pavigiri\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\pavigiri"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="pavigiri"/>
+    <property name="java.class.path" value="C:\Users\pavigiri\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Software Testing\Automation\Selenium\programs\Selenium-module-3\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="HMS.admin.testcases.VistorpageTest" name="addvisitor" time="5.328">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12&apos; is not a valid XPath expression.
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-9H358MQU&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\pavigiri\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 673472925841cd8eb6b69545d0aa7c69
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12&apos; is not a valid XPath expression.
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-9H358MQU&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\pavigiri\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 673472925841cd8eb6b69545d0aa7c69
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at HMS.pages.vistorpage.addvisdetails(vistorpage.java:72)
+	at HMS.admin.testcases.VistorpageTest.addvisitor(VistorpageTest.java:53)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@66048bfd
+Trying to find Element By : By.cssSelector: input#email
+Found Element By : By.cssSelector: input#email
+Trying to find Element By : By.cssSelector: input#password
+Found Element By : By.cssSelector: input#password
+Trying to find Element By : By.className: btn
+Found Element By : By.className: btn
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; class name: btn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; class name: btn]
+Trying to find Element By : By.cssSelector: ul.sidebar-menu&gt;li
+Found Element By : By.cssSelector: ul.sidebar-menu&gt;li
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: ul.sidebar-menu&gt;li]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: ul.sidebar-menu&gt;li]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Visitor Book&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Visitor Book&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; xpath: //a[contains(text(),&apos;Visitor Book&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; xpath: //a[contains(text(),&apos;Visitor Book&apos;)]]
+Trying to find Element By : By.xpath: //h3[contains(text(),&apos;Visitor List&apos;)]
+Found Element By : By.xpath: //h3[contains(text(),&apos;Visitor List&apos;)]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Add Visitor&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Add Visitor&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; xpath: //a[contains(text(),&apos;Add Visitor&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; xpath: //a[contains(text(),&apos;Add Visitor&apos;)]]
+Trying to find Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Found Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Trying to find Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Found Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Trying to find Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Found Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;investigate&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;investigate&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]]] -&gt; xpath: .//option[normalize-space(.) = &quot;investigate&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]]] -&gt; xpath: .//option[normalize-space(.) = &quot;investigate&quot;]]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[2]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[2]/div[1]/input[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/input[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[2]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[2]/div[1]/input[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[3]/div[1]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[3]/div[1]/div[1]/input[1]
+Trying to find Element By : By.xpath: //input[@id=&apos;date&apos;]
+Found Element By : By.xpath: //input[@id=&apos;date&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; xpath: //input[@id=&apos;date&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; xpath: //input[@id=&apos;date&apos;]]
+Trying to find Element By : By.className: datepicker-switch
+Found Element By : By.className: datepicker-switch
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; class name: datepicker-switch]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; class name: datepicker-switch]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: span.month
+Found Element By : By.cssSelector: span.month
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: span.month]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: span.month]
+Trying to find Element By : By.cssSelector: div.datepicker-days
+Found Element By : By.cssSelector: div.datepicker-days
+Trying to find Element By : By.cssSelector: td.day
+Found Element By : By.cssSelector: td.day
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-days]] -&gt; css selector: td.day]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (673472925841cd8eb6b69545d0aa7c69)] -&gt; css selector: div.datepicker-days]] -&gt; css selector: td.day]
+Trying to find Element By : By.xpath: //textarea[@id=&apos;description&apos;]
+Found Element By : By.xpath: //textarea[@id=&apos;description&apos;]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[6]/div[1]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[6]/div[1]/div[1]/input[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12
+Exception occured: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12&apos; is not a valid XPath expression.
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-9H358MQU&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\pavigiri\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 673472925841cd8eb6b69545d0aa7c69
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12}
+</system-out>
+    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 3886
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 27, 2021 3:36:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.io.IOException: Cannot run program &quot;./src/test/resources/fileupload.exe&quot;: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1142)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:590)
+	at java.base/java.lang.Runtime.exec(Runtime.java:414)
+	at java.base/java.lang.Runtime.exec(Runtime.java:311)
+	at HMS.util.CommonUtility.upload(CommonUtility.java:25)
+	at HMS.pages.vistorpage.addvisdetails(vistorpage.java:70)
+	at HMS.admin.testcases.VistorpageTest.addvisitor(VistorpageTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:492)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1109)
+	... 42 more
+</system-err>
+  </testcase>
+  <testcase classname="HMS.admin.testcases.VistorpageTest" name="addvisitor" time="5.162">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12&apos; is not a valid XPath expression.
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-9H358MQU&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\pavigiri\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddec7ec905c43d0ec2c9fc7422127ffe
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12&apos; is not a valid XPath expression.
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-9H358MQU&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\pavigiri\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddec7ec905c43d0ec2c9fc7422127ffe
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at HMS.pages.vistorpage.addvisdetails(vistorpage.java:72)
+	at HMS.admin.testcases.VistorpageTest.addvisitor(VistorpageTest.java:53)
+</failure>
+    <system-out>Trying to find Element By : By.cssSelector: input#email
+Found Element By : By.cssSelector: input#email
+Trying to find Element By : By.cssSelector: input#password
+Found Element By : By.cssSelector: input#password
+Trying to find Element By : By.className: btn
+Found Element By : By.className: btn
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; class name: btn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; class name: btn]
+Trying to find Element By : By.cssSelector: ul.sidebar-menu&gt;li
+Found Element By : By.cssSelector: ul.sidebar-menu&gt;li
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: ul.sidebar-menu&gt;li]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: ul.sidebar-menu&gt;li]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Visitor Book&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Visitor Book&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; xpath: //a[contains(text(),&apos;Visitor Book&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; xpath: //a[contains(text(),&apos;Visitor Book&apos;)]]
+Trying to find Element By : By.xpath: //h3[contains(text(),&apos;Visitor List&apos;)]
+Found Element By : By.xpath: //h3[contains(text(),&apos;Visitor List&apos;)]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;Add Visitor&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;Add Visitor&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; xpath: //a[contains(text(),&apos;Add Visitor&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; xpath: //a[contains(text(),&apos;Add Visitor&apos;)]]
+Trying to find Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Found Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Trying to find Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Found Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Trying to find Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Found Element By : By.xpath: //h4[contains(text(),&apos;Add Visitor&apos;)]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = &quot;checkup&quot;]
+Found Element By : By.xpath: .//option[normalize-space(.) = &quot;checkup&quot;]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]]] -&gt; xpath: .//option[normalize-space(.) = &quot;checkup&quot;]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/select[1]]] -&gt; xpath: .//option[normalize-space(.) = &quot;checkup&quot;]]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[2]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[2]/div[1]/input[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[1]/div[1]/input[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[2]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/div[2]/div[1]/input[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[3]/div[1]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[3]/div[1]/div[1]/input[1]
+Trying to find Element By : By.xpath: //input[@id=&apos;date&apos;]
+Found Element By : By.xpath: //input[@id=&apos;date&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; xpath: //input[@id=&apos;date&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; xpath: //input[@id=&apos;date&apos;]]
+Trying to find Element By : By.className: datepicker-switch
+Found Element By : By.className: datepicker-switch
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; class name: datepicker-switch]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; class name: datepicker-switch]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.prev]
+Trying to find Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Found Element By : By.cssSelector: div.datepicker-months&gt;table.table.table-condensed&gt;thead&gt;tr&gt;th.datepicker-switch
+Trying to find Element By : By.cssSelector: span.month
+Found Element By : By.cssSelector: span.month
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: span.month]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: span.month]
+Trying to find Element By : By.cssSelector: div.datepicker-days
+Found Element By : By.cssSelector: div.datepicker-days
+Trying to find Element By : By.cssSelector: td.day
+Found Element By : By.cssSelector: td.day
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-days]] -&gt; css selector: td.day]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (ddec7ec905c43d0ec2c9fc7422127ffe)] -&gt; css selector: div.datepicker-days]] -&gt; css selector: td.day]
+Trying to find Element By : By.xpath: //textarea[@id=&apos;description&apos;]
+Found Element By : By.xpath: //textarea[@id=&apos;description&apos;]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[6]/div[1]/div[1]/input[1]
+Found Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[2]/form[1]/div[1]/div[6]/div[1]/div[1]/input[1]
+Trying to find Element By : By.xpath: //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12
+Exception occured: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12 because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12&apos; is not a valid XPath expression.
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-9H358MQU&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\pavigiri\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddec7ec905c43d0ec2c9fc7422127ffe
+*** Element info: {Using=xpath, value=//body/div[@id=&apos;myModal&apos;]/div[1]/div[1]/div[1]/button[1]12}
+</system-out>
+    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 11085
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 27, 2021 3:38:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+java.io.IOException: Cannot run program &quot;./src/test/resources/fileupload.exe&quot;: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1142)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:590)
+	at java.base/java.lang.Runtime.exec(Runtime.java:414)
+	at java.base/java.lang.Runtime.exec(Runtime.java:311)
+	at HMS.util.CommonUtility.upload(CommonUtility.java:25)
+	at HMS.pages.vistorpage.addvisdetails(vistorpage.java:70)
+	at HMS.admin.testcases.VistorpageTest.addvisitor(VistorpageTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:492)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1109)
+	... 42 more
+</system-err>
+  </testcase>
+  <testcase classname="HMS.admin.testcases.FrontofficeTest" name="verifytabletitle" time="0.043"/>
+  <testcase classname="HMS.admin.testcases.HomepageTest" name="verifyHomePageTitleTest" time="0.029">
+    <failure message="Home page title not matched expected [Smart Hospital and Research] but found [Smart Hospital Management System]" type="java.lang.AssertionError">java.lang.AssertionError: Home page title not matched expected [Smart Hospital and Research] but found [Smart Hospital Management System]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at HMS.admin.testcases.HomepageTest.verifyHomePageTitleTest(HomepageTest.java:33)
+</failure>
+    <system-out>Trying to find Element By : By.cssSelector: input#email
+Found Element By : By.cssSelector: input#email
+Trying to find Element By : By.cssSelector: input#password
+Found Element By : By.cssSelector: input#password
+Trying to find Element By : By.className: btn
+Found Element By : By.className: btn
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ad13deaf7b8aca1637b4b084fb6d1632)] -&gt; class name: btn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ad13deaf7b8aca1637b4b084fb6d1632)] -&gt; class name: btn]
+</system-out>
+    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 12627
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 27, 2021 3:39:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="HMS.admin.testcases.LoginpageTest" name="verifytitle" time="0.004"/>
+  <testcase classname="HMS.admin.testcases.FrontofficeTest" name="clickonvistor" time="4.829"/>
+  <testcase classname="HMS.admin.testcases.HomepageTest" name="verifyUserNameTest" time="0.145"/>
+  <testcase classname="HMS.admin.testcases.LoginpageTest" name="verifylogo" time="0.089"/>
+  <testcase classname="HMS.admin.testcases.HomepageTest" name="clickonfrontoffice" time="3.092"/>
+  <testcase classname="HMS.admin.testcases.LoginpageTest" name="logintest" time="27.313"/>
+</testsuite>
